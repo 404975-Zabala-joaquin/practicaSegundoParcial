@@ -1,0 +1,164 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "code": "FL123",
+      "departure": "2024-11-25T08:30:00",
+      "arrival": "2024-11-25T12:45:00",
+      "origin": "New York (JFK)",
+      "destination": "Los Angeles (LAX)",
+      "capacity": 200,
+      "availableSeats": 120
+    },
+    {
+      "id": 2,
+      "code": "FL456",
+      "departure": "2024-11-26T14:00:00",
+      "arrival": "2024-11-26T18:00:00",
+      "origin": "Chicago (ORD)",
+      "destination": "Miami (MIA)",
+      "capacity": 180,
+      "availableSeats": 0
+    },
+    {
+      "id": 3,
+      "code": "FL789",
+      "departure": "2024-11-27T09:15:00",
+      "arrival": "2024-11-27T13:30:00",
+      "origin": "San Francisco (SFO)",
+      "destination": "Seattle (SEA)",
+      "capacity": 150,
+      "availableSeats": 50
+    },
+    {
+      "id": 4,
+      "code": "FL987",
+      "departure": "2024-11-28T21:00:00",
+      "arrival": "2024-11-29T05:30:00",
+      "origin": "London (LHR)",
+      "destination": "New York (JFK)",
+      "capacity": 300,
+      "availableSeats": 220
+    },
+    {
+      "id": 5,
+      "code": "FL654",
+      "departure": "2024-11-29T06:00:00",
+      "arrival": "2024-11-29T10:30:00",
+      "origin": "Toronto (YYZ)",
+      "destination": "Vancouver (YVR)",
+      "capacity": 250,
+      "availableSeats": 150
+    },
+    {
+      "id": 6,
+      "code": "FL321",
+      "departure": "2024-11-30T16:30:00",
+      "arrival": "2024-11-30T20:45:00",
+      "origin": "Sydney (SYD)",
+      "destination": "Melbourne (MEL)",
+      "capacity": 200,
+      "availableSeats": 180
+    },
+    {
+      "id": 7,
+      "code": "FL147",
+      "departure": "2024-12-01T07:00:00",
+      "arrival": "2024-12-01T10:00:00",
+      "origin": "Paris (CDG)",
+      "destination": "Berlin (TXL)",
+      "capacity": 180,
+      "availableSeats": 60
+    },
+    {
+      "id": 8,
+      "code": "FL258",
+      "departure": "2024-12-02T11:30:00",
+      "arrival": "2024-12-02T16:15:00",
+      "origin": "Tokyo (HND)",
+      "destination": "Seoul (ICN)",
+      "capacity": 300,
+      "availableSeats": 280
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "flightId": 1,
+      "passengerName": "Alice Johnson",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 2,
+      "flightId": 1,
+      "passengerName": "Bob Smith",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 3,
+      "flightId": 2,
+      "passengerName": "Charlie Davis",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 4,
+      "flightId": 3,
+      "passengerName": "Diana White",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 5,
+      "flightId": 3,
+      "passengerName": "Emily Clark",
+      "status": "CANCELLED"
+    },
+    {
+      "id": 6,
+      "flightId": 4,
+      "passengerName": "Frank Harris",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 7,
+      "flightId": 4,
+      "passengerName": "Grace Lee",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 8,
+      "flightId": 5,
+      "passengerName": "Henry Scott",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 9,
+      "flightId": 6,
+      "passengerName": "Isabella Brown",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 10,
+      "flightId": 6,
+      "passengerName": "Jack Wilson",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 11,
+      "flightId": 7,
+      "passengerName": "Karen Adams",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 12,
+      "flightId": 8,
+      "passengerName": "Liam Martinez",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 13,
+      "flightId": 8,
+      "passengerName": "Mia Gonzalez",
+      "status": "CANCELLED"
+    }
+  ]
+}
